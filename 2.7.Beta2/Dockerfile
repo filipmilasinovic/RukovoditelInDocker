@@ -9,8 +9,7 @@ RUN apt-get update \
 	&& apt-get install php php-gd php-mbstring php-curl php-zip php-xml libapache2-mod-php php-mysql wget unzip -y
 
 RUN a2enmod rewrite
-RUN mkdir rukovoditel \
-	&& cd rukovoditel
+RUN mkdir rukovoditel cd rukovoditel
 RUN wget https://www.rukovoditel.net/pub/beta/rukovoditel_2.7_beta2.zip
 RUN unzip rukovoditel_2.7_beta2.zip
 RUN rm rukovoditel_2.7_beta2.zip
