@@ -5,7 +5,7 @@ FROM httpd
 MAINTAINER filip.milasinovic@protonmail.ch
 
 RUN apt-get update \
-	&& apt-get upgrade -y 
+	&& apt-get upgrade -y \
 	&& apt-get install php php-gd php-mbstring php-curl php-zip php-xml libapache2-mod-php php-mysql wget unzip -y
 
 RUN a2enmod rewrite
