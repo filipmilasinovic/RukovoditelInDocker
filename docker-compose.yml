@@ -1,0 +1,28 @@
+version: '3'
+services:
+        rukovoditelweb:
+                image: filipmil/rukovoditel
+                volumes: 
+                        - RukovoditelWEB:/var/www/html
+                networks: 
+                        - RukovoditelNET 
+                ports:
+                        - "80:80"
+        rukovoditeldb:
+                image: mariadb
+                volumes:
+                        - RukovoditelDB:/var/lib/mysql
+                networks:
+                        - RukovoditelNET
+                ports:
+                        - "3306:3306"
+                environment:
+                        - MYSQL_ROOT_PASSWORD=root-secret
+                        - MYSQL_USER=ruser
+                        - MYSQL_PASSWORD=secret
+                        - MYSQL_DATABASE=rukovoditel
+volumes:
+        RukovoditelWEB:
+        RukovoditelDB:
+networks:
+        RukovoditelNET:
