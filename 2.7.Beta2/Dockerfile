@@ -17,7 +17,7 @@ RUN rm rukovoditel_2.7_beta2.zip
 #RUN cd ..
 
 #COPY -R * /var/www/html/
-RUN mv -R * /var/www/html/
+RUN mv * /var/www/html/
 
 RUN chmod 777 /var/www/html/backups/ /var/www/html/uploads/ /var/www/html/uploads/attachments/ /var/www/html/uploads/users/ /var/www/html/uploads/images/ /var/www/html/cache/ /var/www/html/log/
 RUN chown www-data:www-data -R /var/www/html/
