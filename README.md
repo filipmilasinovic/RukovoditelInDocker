@@ -1,10 +1,10 @@
 <h1>Supported tags and respective <code>Dockerfile</code> links</h1>
-<li><a href="https://github.com/filipmil-Rukovodiltel-In-Docker/Rukovoditel/blob/master/Dockerfile"><code>2.7.Beta2 latest</code></a></li>
-<li><a href="https://github.com/filipmil-Rukovodiltel-In-Docker/Rukovoditel/blob/master/Dockerfile"><code>2.6.1</code></a></li>
+<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7.Beta2/Dockerfile"><code>2.7.Beta2 latest</code></a></li>
+<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.6.1/Dockerfile"><code>2.6.1</code></a></li>
 <h1>Quick reference</h1>
 <li><b>Where to get help: </b><a href="https://forum.rukovoditel.net">Rukovoditel forum</a></li>
-<li><b>Where to file issues: </b><a href="https://github.com/filipmilasinovic/Rukovoditel/issues">https://github.com/filipmilasinovic/Rukovoditel/issues</a></li>
-<li><b>Repository maintained by: </b><a href="https://github.com/filipmilasinovic/Rukovoditel">Filip Milašinoivć</a></li>
+<li><b>Where to file issues: </b><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/issues">https://github.com/filipmilasinovic/Rukovoditel/issues</a></li>
+<li><b>Repository maintained by: </b><a href="https://github.com/filipmilasinovic/RukovoditelInDocker">Filip Milašinoivć</a></li>
 <li><b>Official website: </b><a href="https://www.rukovoditel.net/">Rukovoditel.net</a></li>
 <li><b>Documentation: </b><a href="https://docs.rukovoditel.net/">Official Rukovoditel documentation</a></li>
 <h1>How to use this image</h1>
