@@ -14,9 +14,9 @@ RUN cd rukovoditel
 RUN wget https://www.rukovoditel.net/pub/beta/rukovoditel_2.7_beta2.zip
 RUN unzip rukovoditel_2.7_beta2.zip
 RUN rm rukovoditel_2.7_beta2.zip
-RUN cd ..
+#RUN cd ..
 
-COPY ./rukovoditel/ /var/www/html/
+COPY -R * /var/www/html/
 
 RUN chmod 777 /var/www/html/backups/ /var/www/html/uploads/ /var/www/html/uploads/attachments/ /var/www/html/uploads/users/ /var/www/html/uploads/images/ /var/www/html/cache/ /var/www/html/log/
 RUN chown www-data:www-data -R /var/www/html/
