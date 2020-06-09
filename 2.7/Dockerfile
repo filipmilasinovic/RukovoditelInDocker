@@ -11,7 +11,7 @@ RUN apt-get update \
 RUN a2enmod rewrite
 RUN mkdir rukovoditel
 RUN cd rukovoditel
-RUN wget https://www.rukovoditel.net/pub/beta/rukovoditel_2.7.zip
+RUN wget https://www.rukovoditel.net/download/free/rukovoditel_2.7.zip
 RUN unzip rukovoditel_2.7.zip
 RUN rm rukovoditel_2.7.zip
 
