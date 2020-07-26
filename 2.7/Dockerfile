@@ -21,6 +21,8 @@ RUN chmod 777 /var/www/html/backups/ /var/www/html/uploads/ /var/www/html/upload
 RUN chown www-data:www-data -R /var/www/html/
 RUN rm /var/www/html/index.html
 
+RUN apt-get remove wget unzip -y
+
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
 
