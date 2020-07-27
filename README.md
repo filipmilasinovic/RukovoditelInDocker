@@ -52,7 +52,7 @@ Example: -p 8080:80 will map containers port 80 to hosts port 8080 so you can ac
 <div class="highlight highlight-text-shell-session"><pre>version: '3'
   services:
         rukovoditel:
-                image: filipmil/rukovoditel
+                image: filipmil/rukovoditel:2.7.1
                 volumes:
                         - RukovoditelWEB:/var/www/html
                 networks:
