@@ -1,7 +1,7 @@
 version: '3'
 services:
         rukovoditelweb:
-                image: filipmil/rukovoditel
+                image: filipmil/rukovoditel:2.7.2
                 volumes: 
                         - RukovoditelWEB:/var/www/html
                 networks: 

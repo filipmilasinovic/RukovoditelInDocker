@@ -1,6 +1,12 @@
 <h1>Supported tags and respective <code>Dockerfile</code> links</h1>
+<<<<<<< HEAD
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8.Beta2/Dockerfile"><code>2.8.Beta2</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7/Dockerfile"><code>2.7 latest</code></a></li>
+=======
+<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7.2/Dockerfile"><code>2.7.2 latest</code></a></li>
+<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7.1/Dockerfile"><code>2.7.1</code></a></li>
+<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7/Dockerfile"><code>2.7</code></a></li>
+>>>>>>> a28afd1c824786e784357f2619e56b663f83ac07
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7.Beta2/Dockerfile"><code>2.7.Beta2</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.6.1/Dockerfile"><code>2.6.1</code></a></li>
 <h1>Quick reference</h1>
@@ -52,7 +58,7 @@ Example: -p 8080:80 will map containers port 80 to hosts port 8080 so you can ac
 <div class="highlight highlight-text-shell-session"><pre>version: '3'
   services:
         rukovoditel:
-                image: filipmil/rukovoditel
+                image: filipmil/rukovoditel:2.7.1
                 volumes:
                         - RukovoditelWEB:/var/www/html
                 networks:
