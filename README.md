@@ -2,7 +2,6 @@
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8/Dockerfile"><code>2.8.2 latest</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8/Dockerfile"><code>2.8</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8.Beta2/Dockerfile"><code>2.8.Beta2</code></a></li>
-<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7/Dockerfile"><code>2.7</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7.2/Dockerfile"><code>2.7.2</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7.1/Dockerfile"><code>2.7.1</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7/Dockerfile"><code>2.7</code></a></li>
