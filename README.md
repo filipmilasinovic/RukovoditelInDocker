@@ -53,14 +53,14 @@ Example: -p 8080:80 will map containers port 80 to hosts port 8080 so you can ac
 <div class="highlight highlight-text-shell-session"><pre>$ docker exec -i some-mariadb sh -c 'exec mysql -user some-user --password' < /some/path/on/your/host/some-db-name.sql</pre>
 <h2>... via <a href="https://github.com/docker/compose">docker-compose</a></h2>
 <div class="highlight highlight-text-shell-session"><pre>version: '3'
-  services:
+services:
         rukovoditel:
                 image: filipmil/rukovoditel:latest
                 volumes:
                         - RukovoditelWEB:/var/www/html
                 networks:
                         - RukovoditelNET
-                ports
+                ports:
                         - "80:80"
         mariadb:
                 image: mariadb
@@ -75,10 +75,10 @@ Example: -p 8080:80 will map containers port 80 to hosts port 8080 so you can ac
                         - MYSQL_USER=ruser
                         - MYSQL_PASSWORD=secret
                         - MYSQL_DATABASE=rukovoditel
-  volumes:
+volumes:
         RukovoditelWEB:
         RukovoditelDB:
-  networks:
+networks:
         RukovoditelNET:</pre>
 <h1>License</h1>
 <p><a href="https://www.rukovoditel.net/download.php">Rukovoditel</a> is open source and released under the terms of the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"> GNU General Public License v2 (GPL).</a> <a href="https://tldrlegal.com/license/gnu-general-public-license-v2">Quick GPL-2.0 Summary.</a></p>
