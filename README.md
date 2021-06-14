@@ -1,7 +1,7 @@
 <h1>Supported tags and respective <code>Dockerfile</code> links</h1>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.9.Beta2/Dockerfile"><code>2.9.Beta2 latest</code></a></li>
-<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8/Dockerfile"><code>2.8.3</code></a></li>
-<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8/Dockerfile"><code>2.8.2</code></a></li>
+<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8.3/Dockerfile"><code>2.8.3</code></a></li>
+<li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8.2/Dockerfile"><code>2.8.2</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8/Dockerfile"><code>2.8</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.8.Beta2/Dockerfile"><code>2.8.Beta2</code></a></li>
 <li><a href="https://github.com/filipmilasinovic/RukovoditelInDocker/blob/master/2.7.2/Dockerfile"><code>2.7.2</code></a></li>
